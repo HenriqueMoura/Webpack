@@ -3,8 +3,8 @@ import { Negociacao } from './domain/index.js';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
+import 'bootstrap/js/modal.js';
 import '../css/meucss.css';
-
 
 const controller = new NegociacaoController();
 const negociacao = new Negociacao(new Date(), 1, 200);
